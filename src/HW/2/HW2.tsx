@@ -52,8 +52,6 @@ export const HW2 = () => {
     setCurrentUsers({ myFriends: filteredUsers });
   };
 
-  console.log(currentUsers.myFriends.filter((user) => user.address?.city === "Los Angeles"));
-
   return (
     <div id={'hw02'}>
       <UserList2 users={currentUsers} filterUsers={filterUsers} />
